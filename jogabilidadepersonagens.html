@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jogabilidadepersonagens.css">
+    <title>Jogabilidade e Personagens</title>
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo"><h1>BTM@EB :: Jogabilidade e Personagens</h1></div>
+                <div class="menu">
+                    <a href="batalhanaterra.html">Inicio</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="criarpersonagem.html">Criar Personagem</a>
+            </div><!--menu-->
+        </div><!--center-->
+    </header>
+    <div class="corpo">
+    <div class="jogabilidade">
+        <h2>Jogabilidade</h2>
+        <P>
+            A  batalha  é  realizada  em  um  cenário  fixo  no  qual  podem  ser  alocados  atéoito jogadores, sendo que só pode haver um personagem de cada nação. O cenário é fixo porque a batalha inteira ocorre neste único cenário escolhido. Dentre os cenáriospossíveis, o jogo pode definirqualquer uma das oito casasdas nações.Não  existem alianças  e  “amizades”  entre  os  personagens,  portanto  eles  se enfrentam emduelos de um contra o outro em cada rodadae o vencedor avança para a próxima rodada.No início da rodada, ospersonagens são distribuídosaleatoriamente em pares  pararealizarem a batalhae,  caso a  quantidade  de  personagens  na  batalha  sejaímpar, um deles ficará fora da batalha e se classificará automaticamente paraa rodada seguinte.Os vencedores de uma rodada são novamente distribuídos aleatoriamente para se  enfrentarem  em  uma  nova  batalha.  As  rodadas  sãorepetidas  de  acordo  com  a quantidade  restante  de  personagens  naarena,  até  que  ocorra  a  batalha  finale  seja definido um personagem como o vencedor.O jogadorque “sobrou” na rodada anterior não pode sobrarnovamentena rodada seguinte.
+        </P>
+        <div class="duelo">
+            <h3>O duelo</h3>
+            <p>
+                Abatalha é realizada em turnos de duelosdiretos entre dois personagens, conforme foi descrito anteriormente. Porém, é preciso descrever com mais detalhes como se devedeterminar o vencedor de cada duelo.Antes,  deve-se  observar  que um duelopossui  como  informações de  entrada:o cenário da batalhaeos dois personagens do confrontocom as suas características. Após o confronto, a  informação de  saída  é o  vencedordo confrontocom  os  danos que  sofreue infringiu.
+            </p>
+            <p>
+                O ataque é o golpe desferido pelo personagem no adversário.O golpe possui umaprobabilidade de atingir o adversárioe essa probabilidade é calculada de acordocom a sua habilidadenaquele tipo de ataque. O ataquepode serdo tipo:
+                <ul>
+                    <li>ataque curto é oataque no qual o jogador está entre zero e um passo de distância do adversário.</li>
+                    <li>ataque longo é o ataque no qual o jogador está entre dois e dez passos de distância.</li>
+                </ul>
+                Adefesa é a ação que o personagem realiza para se proteger e reduzir os danos causados  por golpes  que  podem  ser  desferidos  pelo  adversário. A  defesa  possui  uma probabilidade de reduzir o dano do ataque e essa probabilidade é calculada de acordo com a sua habilidadenaquele tipo de ataque. A defesa pode ser do tipo:
+                <ul>
+                    <li>defesa  curta  éaquela  que  visa  proteger  o  personagem  do  ataque curto desferido pelo adversário.</li>
+                    <li>defesa  longa  é  aquela  que  visa  proteger  o  personagem  do  ataque  longo desferido pelo adversário.</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <div class="personagens">
+        <h2>Personagens</h2>
+        <p>
+            O jogo de batalha entre personagens baseados na Terra-Média que é o mundo do Senhor dos Anéis. A batalha ocorrepor turnos de forma automáticano formato de todos contra todos,considerando as características dos personagens. Cadapersonagem é de uma naçãoe possui 5 habilidades, conforme descrito a seguir.As habilidadesque  os  personagens  possuem são força,  velocidade,  precisão, armadurae recuperação. Além da nacionalidade e das 5habilidades, o personagem possui seus pontos de energia e um nome para identificá-lo ao longo de suas interações no jogo. No  início  do  jogo, o  personagem  possui  100 pontosde  energia  e  outros  100  pontos  de habilidadesque  devem  ser  distribuídosentre as  habilidades da  forma  que  o  jogador preferir.
+            <ul>
+                <li>Força: a capacidade que o personagem possui de infringir danos no adversário no combate a curta distância.</li>
+                <li>Precisão: a precisão denota a capacidade na qual o personagem tem para infringir danos no adversário à longa distância.</li>
+                <li>Velocidade: o tempo no qualo personagem leva para se aproximar do adversário.</li>
+                <li>Armadura: o quanto reduz o impacto dos ataques do adversário, independente da distância na qual os ataques são realizados.</li>
+                <li>Recuperação: a capacidade de recuperar pontos para a próxima batalha.</li>
+            </ul>
+        </p>
+        <div id="nacao">
+        <h3>Nações</h3>
+        <p>
+        Neste  jogo,  foram  selecionadas as  seguintes naçõesda  Terra-Média:Orc  Snaga,Uruk-hai,Cavaleirode  Rohan, Guerreiro  de  Gondor, Hobbit, Elfo da Floresta,  Elfo  de Lothlórien e anão.A casa de cada nação é, respectivamente, Cirith Ungol, Portão Negro, Abismo  de  Helm, Minas  Tirith, OCondado, Floresta  das  Trevas  ou  Mirkwood, Caras Galadhon ou Cidade das Árvorese Colinas de Ferro.
+        </p>
+        <h4>Ligação entre cada nação e sua casa:</h4>
+        <img src="naçãoxcasa.png" alt="Ligação entre cada nação e sua casa">
+        </div>
+    </div>
+    </div>
+    <footer>
+        <h3>Cursos de TI da Estácio de Brasília em 2022.1 (TIEB 2022.1)</h3>
+        <h4>Todos os direitos resevados.</h4>
+        <h4>(Terra-Média), locais e personagens são direitos de <a href="https://www.middleearth.com/home.html">Tolkien Enterprises</a></h4>
+    </footer>
+</body>
+</html>
