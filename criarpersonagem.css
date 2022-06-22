@@ -48,5 +48,8 @@ body {
     background-position: center center;
 }
 .menu a{
-    color: blue
+    color: rgb(10, 10, 151)
+}
+button {
+    background-color: bisque;
 }

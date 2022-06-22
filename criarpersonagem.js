@@ -1,6 +1,7 @@
 var btn_criar = document.getElementById('criar')
 var form1 = document.getElementById('form1')
 var box = document.getElementById('box')
+var i = 1;
 
 
 document.getElementById('criar').addEventListener('click', chamaformulario);
@@ -8,7 +9,7 @@ document.getElementById('criar').addEventListener('click', chamaformulario);
 function chamaformulario() {
     console.log ('estou sendo clicado') 
 
-    let formulario = `<form id="form2">
+    let formulario = `<form id="form1">
     <input type="checkbox" id="incluir" name="incluir">
     <label for="incluir">Incluir este personagem na batalha</label>
     <br>
@@ -83,12 +84,13 @@ function chamaformulario() {
 </tr>
 </table>
 <br>
-<button id="criar" type="button">Criar Personagem</button>
+<button onclick="chamaformulario()" id="criar" type="button">Criar Personagem</button>
 </div>
 </form>
     `
-    for(var i = 1; i <= 8; i++) {
-        //document.getElementById('per1').innerHTML += `<h3>Personagem ${i}</h3> ${formulario}`
+    if (i <= 8) {
+        i++;
+        console.log(i);
         document.getElementById('box').innerHTML += `<h3>Personagem ${i}</h3> ${formulario}`
     }
 }
