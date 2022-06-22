@@ -3,25 +3,25 @@ footer{
     padding: 10px 0;
     text-align: center;
     background-color: darkolivegreen;
-    color: aquamarine;
+    color: rgb(68, 177, 18);
 }
 .trailer{
     margin-left: 335px;
 }
 h1 {
     text-align: center;
-    color: paleturquoise;
+    color: rgb(20, 209, 121);
 }
 .paragrafo{
     width: 55%;
     margin-right: 5%;
-    border: 3px solid burlywood;
+    border: 3px solid rgb(163, 116, 54);
     margin-top: 20px;
     margin-bottom: 20px;
     float: right;
     border-radius: 10px;
     font-size: 20px;
-    color: white
+    color: rgb(38, 204, 46);
 }
 .links {
     margin-top: 50px;
@@ -39,5 +39,5 @@ body {
     background-position: center center;
 }
 .links a{
-    color: white;
+    color: rgb(28, 161, 35);
 }
